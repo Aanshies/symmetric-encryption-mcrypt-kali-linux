@@ -1,0 +1,30 @@
+#Install mcrypt
+
+sudo apt install mcrypt
+
+#create a file
+
+nano edfile
+
+#Check whether the file is present in directory
+
+ls
+
+#Encrypt
+
+mcrypt edfile
+
+
+#To see the output
+
+less edfile.nc
+
+#Decrypt
+
+mcrypt -d edfile.nc
+
+
+#To see the output
+
+less edfile
+
