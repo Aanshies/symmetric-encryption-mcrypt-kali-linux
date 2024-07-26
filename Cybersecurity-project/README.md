@@ -1,22 +1,21 @@
-<<<<<<< HEAD
-#Symmetric Encryption using MCrypt in Kali Linux
 
-##Table of Contents
+Symmetric Encryption using MCrypt in Kali Linux
 
-*About
-*Usage
-*Encryption and Decryption
-*Screenshots
-*Conclusion
+Table of Contents
 
-##About
+About
+Usage
+Encryption and Decryption
+Conclusion
+
+About
 This repository contains an example of how to use MCrypt to perform symmetric encryption in Kali Linux. The code demonstrates how to encrypt and decrypt a file using AES-256 in CBC mode.
 
-##Usage
+Usage
 
-###Installation
+Installation
 
-#####Prerequisites
+Prerequisites
 - Operating System: This guide is for Kali Linux. Make sure you are running a compatible Linux distribution.
 - Dependencies: Ensure you have the following dependencies installed:
   - `mcrypt`: A tool for symmetric encryption.
@@ -39,7 +38,4 @@ Save the encrypted file to a new file.
 Decryption
 Use mcrypt_decrypt to decrypt the encrypted file using the same key used for encryption.
 Save the decrypted file to a new file.
-=======
-# symmetric-encryption-mcrypt-kali-linux
-Instructions for symmetric encryption and decryption using mcrypt in Kali Linux.
->>>>>>> origin/main
+
