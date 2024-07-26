@@ -29,11 +29,12 @@ Special Configurations
 
 Installation Instructions
 
-1. Update System
+1. Update System:
 sudo apt update && sudo apt upgrade -y
 2.Install mcrypt
 sudo apt install mcrypt -y
-[https://github.com/Aanshies/symmetric-encryption-mcrypt-kali-linux/blob/main/Cybersecurity-project/Screenshots(wb)/Screenshot%202024-07-20%20221724.png]
+![Screenshot 2024-07-20 221724](https://github.com/user-attachments/assets/23ae1274-b8e0-4a98-87c9-6ba5ea805f26)
+
 3.Verify mcrypt Installation
 mcrypt --version
 4.Install Git
