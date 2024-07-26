@@ -36,7 +36,7 @@ sudo apt install mcrypt -y
 ![Screenshot 2024-07-20 221724](https://github.com/user-attachments/assets/23ae1274-b8e0-4a98-87c9-6ba5ea805f26)
 
 3.Verify mcrypt Installation<br>
-mcrypt list
+mcrypt --list<br>
 ![Screenshot 2024-07-20 221742](https://github.com/user-attachments/assets/5ba67420-5324-4264-a800-cb1ff7062ee5)
 
 4.Install Git<br>
@@ -44,9 +44,13 @@ sudo apt install git -y<br>
 5. Clone Project Repository<br>
 git clone https://github.com/Aanshies/symmetric-encryption-mcrypt-kali-linux.git<br>
 cd symmetric-encryption-mcrypt-kali-linux<br>
+
 Usage Instructions<br>
+
 Bash Script Instructions<br>
+
 Steps<br>
+
 1.Open Terminal: Open your terminal application.<br>
 2.Create Bash Script: Create a new file named encrypt_decrypt.sh and paste the script provided in the file:<br>
 ![Screenshot 2024-07-20 225857](https://github.com/user-attachments/assets/92d3e2fb-7c78-4f31-8316-59044664ef9a)
@@ -57,7 +61,9 @@ chmod +x encrypt_decrypt.sh<br>
 ./encrypt_decrypt.sh<br>
 
 Manual Instructions<br>
+
 Steps<br>
+
 1.Open Terminal: Open your terminal application.<br>
 2.Encrypt a File:<br>
 •	Create or select a file to encrypt (e.g., sample.txt).<br>
@@ -66,6 +72,7 @@ mcrypt sample.txt<br>
 3.Decrypt a File:<br>
 •	Run the following command to decrypt the file:<br>
 mcrypt -d sample.txt.nc<br>
+
 Screenshots<br>
 To better understand the process, see the screenshots below:<br>
 **https://github.com/Aanshies/symmetric-encryption-mcrypt-kali-linux/tree/main/Cybersecurity-project/Screenshots<br>
